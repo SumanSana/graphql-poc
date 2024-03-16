@@ -1,0 +1,42 @@
+{
+    "Tickets": [
+        {
+            "Ticket_Number": 1,
+            "Created_At": "2024-03-08T05:41:41.528Z",
+            "Updated_At": "2024-03-08T05:41:41.528Z",
+            "Ticket_Description": "VDI Isuue",
+            "Ticket_Status": "Open",
+            "Ticket_Priority": "High",
+            "Created_By": 1,
+            "Assigned_To": 2
+        }
+    ],
+    "Users": [
+        {
+            "User_Id": 1,
+            "User_Name": "Suman Sana"
+        },
+        {
+            "User_Id": 2,
+            "User_Name": "Abhimanyu Shrivastav"
+        },
+        {
+            "User_Id": 3,
+            "User_Name": "Mukesh Rau"
+        }
+    ],
+    "Comments": [
+        {
+            "Comment_Id": 1,
+            "Commented_At": "2024-03-08T05:42:40.303Z",
+            "Ticket_Number": 1,
+            "Commented_By": 1,
+            "Comment_Description": "Please solve this issue asap"
+        }
+    ],
+    "sequence": {
+        "ticketNumber": 1,
+        "userId": 3,
+        "commentId": 1
+    }
+}
